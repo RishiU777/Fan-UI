@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="ceiling-fan">
+        <h2>Ceiling Fan</h2>
+        <button (click)="pullCord('speed')">Pull Speed Cord</button>
+        <button (click)="pullCord('direction')">Pull Direction Cord</button>
+        <div class="fan-status">
+            <p>Speed: {{ speed }}</p>
+            <p>Direction: {{ direction }}</p>
+        </div>
+    </div>
+</div>
